@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#ece8fa">
+  <meta name="description" content="Biblioteca Digital: explora La búsqueda de la santidad y Pecados respetables, y consulta el glosario de términos.">
+  <title>Biblioteca Digital | Inicio</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <script src="assets/js/glosario.js" defer></script>
+  <script src="assets/js/app.js" defer></script>
+</head>
+<body>
+  <div class="site-shell" id="site-shell">
+    <header class="site-header">
+      <div class="container header-inner">
+        <a href="#inicio" class="brand" data-navigate="inicio" aria-label="Biblioteca Digital, ir al inicio">
+          <svg class="brand-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 43" fill="none" aria-hidden="true">
+            <path d="M24 37c-6.5-6.3-13.6-6.8-21-6.5V5.5C12.7 4.4 19 7 24 12c5-5 11.3-7.6 21-6.5v25c-7.4-.3-14.5.2-21 6.5Z" stroke="currentColor" stroke-width="2.6" stroke-linejoin="round"/>
+            <path d="M24 12v25M8 12c5.5.1 9.1 1.1 12 4.1M40 12c-5.5.1-9.1 1.1-12 4.1" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+          </svg>
+          <span>Biblioteca Digital</span>
+        </a>
+        <nav class="site-nav" aria-label="Navegación principal">
+          <a href="#inicio" data-navigate="inicio" class="nav-link active" aria-current="page">Inicio</a>
+          <a href="#glosario" data-navigate="glosario" class="nav-link">Glosario</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main-content" class="container main-content">
+      <!-- HOME: la biblioteca está directamente en el inicio. -->
+      <section id="vista-inicio" class="site-view" aria-labelledby="welcome-title">
+        <div class="hero">
+          <p class="eyebrow">UN ESPACIO PARA DESCUBRIR Y APRENDER</p>
+          <h1 id="welcome-title">Bienvenido a tu<br><span>Biblioteca Digital</span></h1>
+          <p class="hero-description">Explora tus lecturas interactivas y encuentra nuevas oportunidades para aprender. Todo en un espacio sencillo, pensado para leer a tu ritmo.</p>
+          <span class="accent-line" aria-hidden="true"></span>
+        </div>
+
+        <div class="collection-heading">
+          <div>
+            <p class="eyebrow">NUESTRA COLECCIÓN</p>
+            <h2>Explora nuestros libros</h2>
+            <p class="section-description">Selecciona el libro que deseas leer.</p>
+          </div>
+          <span class="book-count">2 libros digitales</span>
+        </div>
+
+        <div class="books-grid">
+          <article class="book-card">
+            <div class="book-cover-frame lavender">
+              <img src="libros/busqueda-de-la-santidad/chapters/jerry%20bridges%20la%20busqueda%20de%20la%20santidad.webp" alt="Portada original de La búsqueda de la santidad, de Jerry Bridges" width="657" height="1000" fetchpriority="high">
+            </div>
+            <div class="book-info">
+              <p class="eyebrow book-number">LIBRO 01</p>
+              <h3>La búsqueda de la santidad</h3>
+              <p class="book-description">Una lectura interactiva para reflexionar, comprender y crecer espiritualmente.</p>
+              <a class="open-book purple" href="libros/busqueda-de-la-santidad/index.html#pagina-1" target="_blank" rel="noopener noreferrer" aria-label="Abrir La búsqueda de la santidad en una nueva pestaña">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M12 20c-3-2.5-6-3.1-10-2.5V4c4-.5 7 .1 10 2.6M12 20c3-2.5 6-3.1 10-2.5V4c-4-.5-7 .1-10 2.6M12 6.6V20"/></svg>
+                Abrir libro <span aria-hidden="true">↗</span>
+              </a>
+            </div>
+          </article>
+
+          <article class="book-card">
+            <div class="book-cover-frame blue">
+              <img src="libros/pecados-respetables/chapters/portada-pecados-respetables.webp" alt="Portada original de Pecados respetables, de Jerry Bridges" width="1024" height="1536" loading="lazy">
+            </div>
+            <div class="book-info">
+              <p class="eyebrow book-number">LIBRO 02</p>
+              <h3>Pecados respetables</h3>
+              <p class="book-description">Una lectura interactiva para identificar actitudes cotidianas y reflexionar sobre ellas.</p>
+              <a class="open-book ocean" href="libros/pecados-respetables/index.html#pagina-1" target="_blank" rel="noopener noreferrer" aria-label="Abrir Pecados respetables en una nueva pestaña">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M12 20c-3-2.5-6-3.1-10-2.5V4c4-.5 7 .1 10 2.6M12 20c3-2.5 6-3.1 10-2.5V4c-4-.5-7 .1-10 2.6M12 6.6V20"/></svg>
+                Abrir libro <span aria-hidden="true">↗</span>
+              </a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- El usuario solo consulta; las definiciones se editan en assets/js/glosario.js. -->
+      <section id="vista-glosario" class="site-view" aria-labelledby="glossary-title" hidden>
+        <div class="glossary-heading">
+          <p class="eyebrow">CONSULTA DE PALABRAS</p>
+          <h1 id="glossary-title">Glosario</h1>
+          <p class="hero-description">Encuentra rápidamente una palabra, su significado o un ejemplo. Los resultados se filtran automáticamente mientras escribes.</p>
+        </div>
+        <div class="search-area">
+          <label class="search-control" for="buscar-termino">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="10.8" cy="10.8" r="7"/><path d="m16 16 5 5"/></svg>
+            <input id="buscar-termino" type="search" placeholder="Escribe una palabra o frase..." autocomplete="off" spellcheck="false">
+          </label>
+          <p id="glossary-counter" class="glossary-counter" role="status" aria-live="polite"></p>
+        </div>
+        <div id="glossary-results" class="glossary-results"></div>
+        <div id="no-results" class="empty-state" hidden>
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="21" cy="21" r="13"/><path d="m31 31 10 10"/></svg>
+          <h2>No encontramos esa palabra</h2>
+          <p>Prueba con otra palabra o una frase diferente.</p>
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer">Biblioteca Digital <span aria-hidden="true">·</span> Lectura y conocimiento</footer>
+  </div>
+</body>
+</html>
