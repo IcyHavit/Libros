@@ -27,11 +27,15 @@
     @media(max-width:900px){body{overflow:auto}.shell{min-height:100dvh;height:auto;grid-template-rows:64px auto 70px}.reader{padding:0;min-height:calc(100dvh - 134px)}.book{border-radius:0;min-height:calc(100dvh - 134px)}.spread{grid-template-columns:1fr;height:auto;min-height:calc(100dvh - 134px)}.art-page{min-height:48dvh;padding:16px}.art{max-height:44dvh}.notes{overflow:visible;padding:28px 24px;min-height:45dvh}.reflection{margin-top:28px}.cover-spread{grid-template-columns:1fr;min-height:calc(100dvh - 134px)}.cover-copy{padding:32px 26px}.cover-art{order:-1;min-height:40dvh;padding:20px}.cover-art img{max-height:36dvh}.steps{grid-template-columns:1fr}.welcome{min-height:calc(100dvh - 134px);padding:32px 24px}.brand{display:none}.progress-wrap{max-width:none}.font-wide{display:none}.font-compact{display:inline}.text-tool{padding:0;width:48px}.page-title-small{display:none}.center-nav{gap:8px}.nav-label{display:none}.nav-btn{padding:0;width:50px}.bottombar{padding:0 14px}.zoom-stage{padding:12px}.zoom-title{max-width:40vw}}
     @media(max-width:520px){.top-actions{gap:5px}.tool{min-width:44px;min-height:44px}.progress-wrap{gap:8px}.counter{min-width:46px}.notes h1{font-size:2rem}.cover-copy h1{font-size:3rem}.zoom-hint{font-size:.86rem}}
     @media(prefers-reduced-motion:reduce){*,*:before,*:after{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
+    .back-to-library{display:inline-flex;align-items:center;justify-content:center;gap:8px;flex:none;min-height:44px;padding:9px 12px;border:1px solid #ffffff35;border-radius:10px;background:#ffffff13;color:#fff;text-decoration:none;font:700 .78rem/1 Arial,Helvetica,sans-serif;white-space:nowrap;transition:background .2s}
+    .back-to-library:hover{background:#ffffff26}.back-to-library:focus-visible{outline:4px solid var(--gold);outline-offset:3px}
+    @media(max-width:520px){.back-to-library{min-width:44px;padding:8px}.back-to-library .back-label{display:none}}
   </style>
 </head>
 <body>
   <div class="shell">
     <header class="topbar">
+      <a class="back-to-library" href="../../index.html#inicio" aria-label="Volver a la Biblioteca Digital" title="Volver a la Biblioteca Digital"><span aria-hidden="true">←</span><span class="back-label">Biblioteca</span></a>
       <div class="brand">Pecados respetables</div>
       <div class="progress-wrap" aria-label="Progreso de lectura"><div class="progress-track"><div class="progress-fill" id="progressFill"></div></div><span class="counter" id="counter">1 / 7</span></div>
       <div class="top-actions">
