@@ -1,6 +1,6 @@
 # Biblioteca Digital
 
-Sitio web estático para GitHub Pages que reúne **La búsqueda de la santidad** y **Pecados respetables**, de Jerry Bridges. También incluye un glosario de lectura con filtro instantáneo.
+Sitio web estático para GitHub Pages que reúne **La búsqueda de la santidad** y **Pecados respetables**, de Jerry Bridges, y **La oración del Señor**, de R. C. Sproul. También incluye un glosario de lectura con filtro instantáneo.
 
 ## Estructura
 
@@ -39,3 +39,12 @@ La primera entrega contiene **solo Anatema**, con la definición y el ejemplo pr
 - Las imágenes originales de ambos libros se incluyeron, incluso los archivos PNG de gran tamaño del primero; por eso el ZIP es relativamente grande.
 - Los dos proyectos están aislados en carpetas distintas para conservar su diseño y funcionamiento.
 - La captura del término «Anatema» queda guardada en `assets/referencias/` como referencia. No se incluye la captura en la interfaz, ya que el glosario presenta texto limpio y consultable.
+
+## Actualización: capítulos 6 y 7 y tercer libro
+
+- `libros/pecados-respetables/` incorpora los capítulos 6 y 7, sus infografías originales, resúmenes, 10 ideas, preguntas de reflexión y una propuesta práctica para el capítulo 6. Los capítulos 1-5 mantienen su contenido.
+- `libros/la-oracion-del-senor/` presenta diez capítulos y un apéndice con las 23 páginas del material proporcionado, en el mismo orden que los PDF. Incluye una portada recortada de la fotografía facilitada, índice, navegación, ampliación de imágenes y lectura íntegra de las páginas en imágenes optimizadas. No se inventaron preguntas.
+- El sitio se puede abrir sin conexión a internet, directamente desde `index.html`, ya que todos sus recursos están dentro del proyecto.
+- Para publicar, **extrae el ZIP** y sube el **contenido de la carpeta `Libros-main`** a la raíz de tu repositorio, preservando la estructura de subcarpetas.
+
+Esta versión ligera omite los archivos PDF originales para facilitar la publicación en GitHub Pages; **sí contiene todas las páginas de los resúmenes como imágenes**. Para conservar descargas PDF, utiliza el paquete completo.

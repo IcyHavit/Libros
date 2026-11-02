@@ -1,0 +1,113 @@
+[
+  {
+    "number": 1,
+    "title": "Cómo no orar",
+    "type": "Capítulo",
+    "pdf": "documents/seccion-01.pdf",
+    "pages": [
+      "pages/seccion-01-pagina-01.webp",
+      "pages/seccion-01-pagina-02.webp"
+    ]
+  },
+  {
+    "number": 2,
+    "title": "Padre nuestro que estás en los cielos",
+    "type": "Capítulo",
+    "pdf": "documents/seccion-02.pdf",
+    "pages": [
+      "pages/seccion-02-pagina-01.webp",
+      "pages/seccion-02-pagina-02.webp",
+      "pages/seccion-02-pagina-03.webp"
+    ]
+  },
+  {
+    "number": 3,
+    "title": "Santificado sea tu nombre",
+    "type": "Capítulo",
+    "pdf": "documents/seccion-03.pdf",
+    "pages": [
+      "pages/seccion-03-pagina-01.webp",
+      "pages/seccion-03-pagina-02.webp",
+      "pages/seccion-03-pagina-03.webp"
+    ]
+  },
+  {
+    "number": 4,
+    "title": "Venga tu reino",
+    "type": "Capítulo",
+    "pdf": "documents/seccion-04.pdf",
+    "pages": [
+      "pages/seccion-04-pagina-01.webp",
+      "pages/seccion-04-pagina-02.webp",
+      "pages/seccion-04-pagina-03.webp"
+    ]
+  },
+  {
+    "number": 5,
+    "title": "Sea hecha tu voluntad",
+    "type": "Capítulo",
+    "pdf": "documents/seccion-05.pdf",
+    "pages": [
+      "pages/seccion-05-pagina-01.webp",
+      "pages/seccion-05-pagina-02.webp"
+    ]
+  },
+  {
+    "number": 6,
+    "title": "El pan nuestro de cada día",
+    "type": "Capítulo",
+    "pdf": "documents/seccion-06.pdf",
+    "pages": [
+      "pages/seccion-06-pagina-01.webp",
+      "pages/seccion-06-pagina-02.webp"
+    ]
+  },
+  {
+    "number": 7,
+    "title": "Perdónanos nuestras deudas",
+    "type": "Capítulo",
+    "pdf": "documents/seccion-07.pdf",
+    "pages": [
+      "pages/seccion-07-pagina-01.webp",
+      "pages/seccion-07-pagina-02.webp",
+      "pages/seccion-07-pagina-03.webp"
+    ]
+  },
+  {
+    "number": 8,
+    "title": "No nos metas en tentación",
+    "type": "Capítulo",
+    "pdf": "documents/seccion-08.pdf",
+    "pages": [
+      "pages/seccion-08-pagina-01.webp",
+      "pages/seccion-08-pagina-02.webp"
+    ]
+  },
+  {
+    "number": 9,
+    "title": "Tuyo es el reino",
+    "type": "Capítulo",
+    "pdf": "documents/seccion-09.pdf",
+    "pages": [
+      "pages/seccion-09-pagina-01.webp"
+    ]
+  },
+  {
+    "number": 10,
+    "title": "Preguntas y respuestas",
+    "type": "Capítulo",
+    "pdf": "documents/seccion-10.pdf",
+    "pages": [
+      "pages/seccion-10-pagina-01.webp"
+    ]
+  },
+  {
+    "number": 11,
+    "title": "Apéndice",
+    "type": "Apéndice",
+    "pdf": "documents/seccion-11.pdf",
+    "pages": [
+      "pages/seccion-11-pagina-01.webp"
+    ]
+  }
+]
