@@ -1,50 +1,23 @@
 # Biblioteca Digital
 
-Sitio web estático para GitHub Pages que reúne **La búsqueda de la santidad** y **Pecados respetables**, de Jerry Bridges, y **La oración del Señor**, de R. C. Sproul. También incluye un glosario de lectura con filtro instantáneo.
+Biblioteca web estática con **La búsqueda de la santidad** y **Pecados respetables**, de Jerry Bridges, y **La oración del Señor**, de R. C. Sproul. También incluye un glosario con búsqueda instantánea.
 
-## Estructura
+## Contenido
 
-```text
-BibliotecaDigital/
-├── index.html                       # Inicio con ambos libros y sección Glosario
-├── assets/
-│   ├── css/styles.css               # Colores, degradados y diseño adaptable
-│   ├── js/app.js                     # Navegación y búsqueda en tiempo real
-│   ├── js/glosario.js                # AQUÍ se editan las definiciones
-│   ├── favicon.svg
-│   └── referencias/anatema-referencia.png  # Captura de referencia original
-└── libros/
-    ├── busqueda-de-la-santidad/     # Primer libro completo, sin modificaciones
-    │   ├── index.html
-    │   └── chapters/                 # Todas las imágenes originales (PNG, JPG, WebP)
-    └── pecados-respetables/         # Segundo libro completo, sin modificaciones
-        ├── index.html
-        └── chapters/                 # Todas las imágenes originales (WebP)
-```
+- **La búsqueda de la santidad:** 17 capítulos de lectura.
+- **Pecados respetables:** siete capítulos, incluidos los capítulos 6 y 7 con sus infografías, resúmenes y preguntas de reflexión.
+- **La oración del Señor:** nueve capítulos, una sección de preguntas y respuestas y un apéndice. Los materiales se pueden ampliar desde el lector.
+- **Glosario:** las definiciones se administran en `assets/js/glosario.js`.
 
-## Cómo abrirlo
+## Publicar en GitHub Pages
 
-- **Localmente:** abre `index.html` en el navegador (también funcionan los botones de lectura).
-- **En GitHub Pages:** sube **el contenido de esta carpeta** a la raíz de un repositorio; en *Settings → Pages* selecciona *Deploy from a branch*, rama `main` y carpeta `/ (root)`. La dirección será `https://TU_USUARIO.github.io/NOMBRE_REPOSITORIO/`.
-- Los botones **Abrir libro** cargan las copias incluidas en `libros/` sin depender de otro sitio externo. Los lectores originales no han sido editados.
+1. Extrae este ZIP y entra en la carpeta principal.
+2. Sube su **contenido**, incluidos `index.html`, `assets/` y `libros/`, a la raíz de tu repositorio.
+3. En GitHub, abre **Settings → Pages**, selecciona **Deploy from a branch**, la rama `main` y la carpeta `/ (root)`.
+4. Abre la URL de GitHub Pages que se genere. Los enlaces son relativos para funcionar dentro de cualquier repositorio.
 
-## Glosario
+## Navegación
 
-Para añadir definiciones, edita únicamente `assets/js/glosario.js` y agrega objetos con los campos `termino`, `significado` y `ejemplo` al arreglo `DEFINICIONES_GLOSARIO` (separados por coma). No se necesita base de datos. El buscador filtra al escribir y no distingue entre mayúsculas/minúsculas ni entre vocales con/sin tilde.
+Abre `index.html` para entrar a la biblioteca. Desde cada libro puedes regresar al inicio. Los lectores permiten acceder a los capítulos desde su índice y ampliar las imágenes.
 
-La primera entrega contiene **solo Anatema**, con la definición y el ejemplo proporcionados por el usuario.
-
-## Notas
-
-- Las imágenes originales de ambos libros se incluyeron, incluso los archivos PNG de gran tamaño del primero; por eso el ZIP es relativamente grande.
-- Los dos proyectos están aislados en carpetas distintas para conservar su diseño y funcionamiento.
-- La captura del término «Anatema» queda guardada en `assets/referencias/` como referencia. No se incluye la captura en la interfaz, ya que el glosario presenta texto limpio y consultable.
-
-## Actualización: capítulos 6 y 7 y tercer libro
-
-- `libros/pecados-respetables/` incorpora los capítulos 6 y 7, sus infografías originales, resúmenes, 10 ideas, preguntas de reflexión y una propuesta práctica para el capítulo 6. Los capítulos 1-5 mantienen su contenido.
-- `libros/la-oracion-del-senor/` presenta diez capítulos y un apéndice con las 23 páginas del material proporcionado, en el mismo orden que los PDF. Incluye una portada recortada de la fotografía facilitada, índice, navegación, ampliación de imágenes y lectura íntegra de las páginas en imágenes optimizadas. No se inventaron preguntas.
-- El sitio se puede abrir sin conexión a internet, directamente desde `index.html`, ya que todos sus recursos están dentro del proyecto.
-- Para publicar, **extrae el ZIP** y sube el **contenido de la carpeta `Libros-main`** a la raíz de tu repositorio, preservando la estructura de subcarpetas.
-
-Esta versión ligera omite los archivos PDF originales para facilitar la publicación en GitHub Pages; **sí contiene todas las páginas de los resúmenes como imágenes**. Para conservar descargas PDF, utiliza el paquete completo.
+Esta edición ligera contiene todas las páginas de lectura como imágenes, pero no incluye descargas PDF.
